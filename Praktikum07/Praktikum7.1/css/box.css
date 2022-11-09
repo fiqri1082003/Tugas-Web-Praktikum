@@ -1,0 +1,31 @@
+.container {
+    /* Untuk ngebuat satu baris */
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Style untuk kotak */
+.kotak {
+    border: 3px solid black;
+    /* Tambahin lebar */
+    width: 150px;
+    /* Tambahin tinggi */
+    height: 700px;
+}
+
+/* untuk menambahkan background collor */
+.item-1 {
+    background-color: yellow;
+}
+/* style item-2  */
+.item-2 {
+    background-color: red;
+}
+/* style item-3  */
+.item-3 {
+    background-color: greenyellow;
+}
+/* style item-4  */
+.item-4 {
+    background-color: aqua;
+}
